@@ -1,0 +1,14 @@
+\section{Nil spectra and the eta correction}\label{app:nil}
+Use horizontal lattice period \(P=2\pi\), central period \(P^2/r\) and volume \(V_0W=P^4a^2c/r\). For a general physical scalar shift \(\mu\) the spectral centre is \(b_0=\mu-t/4,\ t=c/a^2\). On the center-zero sector (present only if \(\delta_3=0\)) the levels about \(b_0\) are \(\pm|\boldsymbol l|/a,\ \boldsymbol l\in\Z^2+(\delta_1,\delta_2)\), retaining both dimensions when \(\boldsymbol l=0\). On a nonzero central frequency \(k=r|j+\delta_3|\), \(\nu=k/(2\pi)\), the remaining levels about \(b_0\) are
+\[
+ f=-\nu/c,\qquad f_n^\pm=\pm\sqrt{(\nu/c)^2+2\nu n/a^2},\quad n\ge1.
+\]
+Each occurs with multiplicity \(2k\) including both centre signs. Indeed Fourier expansion in the centre turns horizontal Clifford differentiation into an oscillator raising/lowering pair. The adjacent Hermite degrees span a two-dimensional block with diagonal \(\pm\nu/c\) and off-diagonal \(\sqrt{2\nu n}/a\). The remaining unpaired vector has eigenvalue \(-\nu/c\). Translation by one horizontal period shifts the second Fourier label by \(k\) and leaves \(k\) independent residue classes for each centre sign. Minimizing the paired positive and unpaired negative towers proves \eqref{eq:nilmin} where its gap assumptions hold. The equality point follows by squaring \(R_*=\nu_*/t+t/2\).
+
+The nonzero-centre spin area term \(-t/4\) follows from the Koszul connection. To compare eta with \cite[Thm.~12]{gornet}, set the geometric parameters there to \(A_{\rm GR}=1/t,\ r_{\rm GR}=P^2c/r,\ m_v=r\). At the centred shift \(\mu=t/4\) the paired towers cancel. The unpaired value \(-2r\zeta(-1,\alpha)\) equals \(C_r=r/6\) for \(\alpha=1\) (periodic), \(-r/12\) for \(\alpha=1/2\). The local heat coefficient gives the smooth derivative \(\partial_\mu\eta_{\rm sm}=\vol(R_3/24-\mu^2)/\pi^2,\ R_3=-t^2/2\). Adding the signed crossings yields
+\begin{align*}
+ \eta(\mu)&=C_r+\frac{\vol}{\pi^2}\left(\frac{(t/4)^3-\mu^3}{3}
+                     +\frac{(\mu-t/4)R_3}{24}\right)+J,\\
+ J&=\sum_f d_f\{\sgn(f+\mu-t/4)-\sgn f\},\qquad \sgn(0)=0 .
+\end{align*}
+The finite sum contains only \(|f|\le|\mu-t/4|\). At \(\mu=0\) the smooth term equals \(\vol t^3/(96\pi^2)\). The horizontal contribution to \(J\) exists only for a central-periodic spin. At \(a=c=1,r=2,(\delta_1,\delta_2)=(0,1/2)\), the ordinary eta values are about \(1.15580037\) and \(0.65580037\) for the two central spins, both positive despite the sign change of \(C_r\).

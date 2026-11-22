@@ -1,0 +1,32 @@
+\section{Arithmetic enumeration and certified Sol intervals}\label{app:enumerate}
+\subsection{A bounded integer search with a proof of completeness}
+The free product presentation \(PSL_2(\Z)=C_2*C_3\) identifies primitive hyperbolic conjugacy classes with primitive mixed positive \(L,R\) necklaces. In a cyclically reduced word the two choices of exponent of the order-three factor give the two letters. A trace-positive lift is unique. Every mixed word can start at an \(LR\) pair. Appending \(L\) or \(R\) to its positive matrix increases the trace by a positive off-diagonal entry. A search tree can consequently be cut as soon as its trace exceeds 60; taking one cyclic representative and removing proper powers yields the finite list without a word-length assumption. For \(B(b)=\left(\begin{smallmatrix}b&-1\\1&0\end{smallmatrix}\right)\) one has \(L^{-1}B(b)L=L^{b-2}R\), giving the advertised periods and an integral change of basis.
+
+For each representative, put \(S=2br+(d_0-a)s\). Completing the square in \eqref{eq:F} gives \(4bF=S^2-\Delta s^2\). Multiplication by \(M^\mathsf T\) rescales \(S+\sqrt{\Delta}s\) by one of \(e^{\pm\ell}\). Each orbit has exactly one representative with
+\[
+ e^{-\ell}\le (S+\sqrt\Delta s)^2/(4b|F|)<e^\ell .
+\]
+The two coordinate unit vectors show that it suffices to search \(|F|\le m_0=\max(b,c)\). Bounding the sum and difference of the two embeddings within this fundamental domain gives
+\[
+ |S|\le2\sqrt{bm_0t},\qquad |s|\le2\sqrt{bm_0t/\Delta}.
+\]
+Enumerate the integer rectangle and retain \(S\equiv(d_0-a)s\bmod 2b\). Boundary inequalities use the sign of \(p+q\sqrt\Delta\), obtained by comparing integer squares when the terms have opposite signs. Vectors \(v,-v\) are different oriented orbits. This matters, for example, for the multiplicity four in Table~\ref{tab:sol}. A sample independent count occurs on the golden-ratio lattice: identifying the dual lattice with \(\Z[\varphi]\), \(\varphi=(1+\sqrt5)/2\), the monodromy multiplies by \(\varphi^2\). The Minkowski bound \(\sqrt5/2<2\) makes every ideal principal. The four unit cosets modulo \(\langle\varphi^2\rangle\) give four orbits per ideal of absolute norm \(n\); precisely two have each sign. The number of oriented orbits is \(4\sum_{d\mid n}\chi_5(d)\) for the real quadratic character \(\chi_5\).
+
+For the golden-ratio lattice the first level can also be bracketed without a Hermite expansion. In the \(|F|=1\) sector oscillator comparison gives a squared ground lower bound \(35.6460\) and second-level lower bound \(47.5306\). A width-nine Gaussian with central potential in its lower spin eigendirection gives the squared ground upper bound \(37.8506\); all higher norms start above \(62.2175\). Multiplying the resulting absolute-level interval by \(4\ell\) gives \(22.9843<q_\pm<23.6845\) with two copies on each branch. The first row of Table~\ref{tab:sol} refines this independent bracket.
+
+\subsection{Eta and the framing}
+The Sol invariant frame is globally defined for our trivial deck spin character. The Levi--Civita spin connection contribution to the spin Dirac operator cancels in this frame. On even forms, write a section as \((f,*v)\). The signature operator formed using the flat framing connection acts in the corresponding quaternion frame by the same three coefficient derivatives and Clifford matrices, with complex volume element of the same sign. Complexifying the quaternionic module gives two equivalent two-dimensional spin representations. Their domains agree on the compact quotient because the frame and the deck character are trivial. Its eta is therefore \(2\eta_D\). The cusp signature-defect formula of Atiyah--Donnelly--Singer \cite{ads}, Atiyah's hyperbolic matrix invariant \cite{atiyah} and Hirzebruch's period formula \cite{hirz} identify this framed value with \(\sum_j(b_j-3)/3\), with the orientation calibrated by \(F=r^2-3s^2\) on the discriminant-12 lattice. The zero-fibre spectrum is paired. No termwise summation of individual orbit eta values at zero is involved. For example \((2,3)\) gives \(-1/6\); a mirror changes its sign.
+
+\subsection{Full-line error and level isolation}
+In a fixed rotated spin basis, for positive \(km\),
+\[
+ D_B=-i\sigma_2\partial_\xi+B\cosh\xi\,\sigma_3+B\sinh\xi\,\sigma_1,\qquad
+ D_B^2=-\partial_\xi^2+B^2\cosh(2\xi)+B(-\cosh\xi\,\sigma_3+\sinh\xi\,\sigma_1).
+\]
+The pointwise norm of the last matrix divided by \(B\) is \(\sqrt{\cosh(2\xi)}\). For \(B>1/2\) the derivative of the squared form is bounded below by \(2B-1>0\). All ordered squared levels thus increase in the finite survey, where \(B\ge2\pi\sqrt{2/\sqrt{60^2-4}}>1/2\). This extra result controls possible competing excitations in the four examples. The unrestricted theorem needs only Lemma~\ref{lem:ground}.
+
+Let \(\delta=7/50,\ \omega=B\sqrt{2(1-\delta)}\). The spin potential minus its value at zero has norm at most \(B\sqrt{\cosh(2\xi)-1}\). Using Young's inequality and \(\cosh(2\xi)\ge1+2\xi^2\) gives
+\[
+ D_B^2\ \ge\ -\partial_\xi^2+\omega^2\xi^2+B^2-\frac1{4\delta}-B\sigma_3 .
+\]
+The oscillator comparison gives lower bounds for the second and third eigenvalues, in increasing order adding \(+B+\omega,-B+3\omega\) to the scalar constant. For a normalized trial spinor \(v\), \(m=\langle D_B\rangle_v\), the spectral theorem puts an eigenvalue in \([m-r,m+r]\), \(r^2=\langle D_B^2\rangle_v-m^2\). We use 20 Hermite functions per spin, Gaussian width seven, and integer coefficient vectors selected numerically; only the integer vectors and full-line Gaussian moments enter the enclosure. The first interval lies below the second squared lower bound, and both disjoint intervals lie below the third squared lower bound. Min--max and simplicity then identify their index and sign. Multiplication by \(4\ell\) converts them to Table~\ref{tab:sol}. The residual uses the true square on the full line, including components outside the trial subspace.

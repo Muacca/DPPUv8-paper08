@@ -1,0 +1,24 @@
+\section{Charge, spin convention and spectral quantities}\label{sec:setting}
+Give each compact spatial slice \(Y\) the orientation \(e^{123}>0\) and a specified spin lift of its deck group. The four-dimensional metric has signature \((-+++)\), \(\epsilon_{0123}=+1\), and \(T^a=De^a\). Define
+\[
+ Q_\Sigma=\int_Y e_a\wedge T^a,\qquad p_\theta=-Q_\Sigma .
+\]
+The torsion coupling in the action is \(\int\theta\,d(e_a\wedge T^a)\). Integration by parts gives the bulk source \(-d\theta\wedge e_a\wedge T^a\). With a fixed induced coframe the charge variational problem differs from the fixed-field problem by \(-[p_\theta\theta]_i^f=[\theta Q_\Sigma]_i^f\). For an optional real constant Holst coefficient \(c_H\), put \(h=2\kappa^2 c_H,\ d=1+h^2\). Eliminating the connection gives the effective kinetic term \(-\tfrac12(\partial\phi_h)^2\) for \(\phi_h=\sqrt6\,\kappa\theta/\sqrt d\); for the minimal model \(h=0\). The homogeneous axial contortion has \(K_{ij}=w\,\epsilon_{ijk}e^k\). At proper time \(\tau\),
+\begin{equation}
+ w=\frac{\kappa^2}{d}\frac{d\theta}{d\tau},\qquad
+ Q_\Sigma=-6\vol w,\qquad
+ D(Q_\Sigma)=D_{\LC}+\tfrac32 w=D_{\LC}-\frac{Q_\Sigma}{4\vol}.
+ \label{eq:shift}
+\end{equation}
+Here \(\vol=\int_Y e^{123}\) is physical volume. We use \(c(e^j)=-i\sigma_j\), \(c_1c_2c_3=-1\); Appendix~\ref{app:conv} gives the axial shift and fixed-charge dictionary. The real-\(h\) formulas concern specified homogeneous backgrounds. For given \(\vol\), fixing the charge fixes \(w\) directly; fixing the initial unscaled scalar velocity instead changes \(w\) with \(h\).
+
+Let \(\mathcal H\) be a closed reducing subspace of the spatial operator. Define positive numbers
+\begin{equation}
+ q_+=4\vol\min(\operatorname{spec}_{\mathcal H}D_{\LC}\cap(0,\infty)),\qquad
+ q_-=4\vol\min(-\operatorname{spec}_{\mathcal H}D_{\LC}\cap(0,\infty)).
+ \label{eq:gaps}
+\end{equation}
+Contact occurs at \(Q_\Sigma=q_+\) and \(Q_\Sigma=-q_-\). All examples have both spectral signs. Zero modes already present at \(Q_\Sigma=0\) are recorded separately. A threshold gives a sign test if the charge magnitude can be matched to one of two unequal thresholds and its sector can be interrogated; a generic unknown magnitude need not be identifiable.
+
+Our eta invariant is the analytic continuation at zero of
+\(\eta_D(z)=\sum_{\lambda\ne0}\sgn(\lambda)|\lambda|^{-z}\), with multiplicities. It omits zero modes and has no added half-kernel term. Unless specified, eta refers to the whole unshifted slice. The Sol theorem and the principal Nil thresholds use a measured nonzero-fibre or nonzero-centre sector respectively.

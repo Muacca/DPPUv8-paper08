@@ -1,0 +1,24 @@
+\section{Round spin lifts and first-shell convention}\label{app:spheres}
+Take \(S^3\) with the convention in which the constant invariant-frame doublet on a left quotient descends in the first positive shell. For a left action with lift character \(\chi\) on a finite subgroup \(G\), the invariant dimensions from Section~\ref{sec:catalog} specialize to
+\[
+ m_+(k)=(k+2)\dim(V_k\otimes\chi)^G,\qquad
+ m_-(k)=(k+1)\dim(V_{k+1}\otimes\chi)^G .
+\]
+For a mixed cyclic action with two \(SU(2)\) weights \(a,b\) modulo \(p\), count the pairs \(u=-i,-i+2,\dots,i,\ v=-j,-j+2,\dots,j\) satisfying \(au+bv=0\bmod p\). Call this integer \(N(i,j)\); then \(m_+(k)=N(k,k+1)\), \(m_-(k)=N(k+1,k)\).
+
+\begin{center}\small
+\begin{tabular}{@{}llrrr@{}}\toprule
+Quotient & Lift & \(m_+(0)\)& \(m_-(0)\)& \(\eta_0\)\\\midrule
+\(S^3\) & unique &2&2&0\\
+\(\mathbb{RP}^3\) & even / odd &2 / 0&0 / 2&\(1/4,\ -1/4\)\\
+\(C_3\) quotient & left / right &2 / 0&0 / 2&\(4/9,\ -4/9\)\\
+\(L(5,2)\) & \((a,b)=(2,1)\) &0&0&0\\
+\(L(7,2)\), chosen orientation & \((3,2)\) &0&0&\(4/7\)\\
+Binary tetrahedral \(2T\)&trivial&2&0&\(167/144\)\\
+Binary octahedral \(2O\)&trivial / sign&2 / 0&0 / 0&\(383/288,\ -49/288\)\\
+Binary icosahedral \(2I\)&trivial&2&0&\(1079/720\)\\
+Quaternion \(Q_8\)&trivial&2&0&\(13/16\)\\
+Quaternion \(Q_8\)&three nontrivial&0&0&\(-3/16\) each\\\bottomrule
+\end{tabular}
+\end{center}
+These 15 entries refer to three-dimensional ordinary eta. For the binary groups the character average uses \(\sin((k+1)\theta)/\sin\theta\) away from the two central elements and the limiting signed dimension at those elements. Each residue of \(p_k=m_+(k)-m_-(k)\) modulo a group period \(P\) is a polynomial of degree at most two in \(k\). Thus \(\sum p_k z^k=N(z)/(1-z^P)^3\); the first \(3P\) differences determine \(N\). The unpaired identity contribution vanishes, and free action makes the nonidentity generating functions regular at \(z=1\). In particular \(N(1)=N'(1)=N''(1)=0\), and the finite Abel value \(-N'''(1)/(6P^3)\) gives the ordinary eta at zero by Mellin continuation. The stored coefficients allow all shell differences to be reconstructed; the script evaluates the integer dimensions before regularization. Four-dimensional boundary domains and determinant powers require separate data.

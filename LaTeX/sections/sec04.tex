@@ -1,0 +1,69 @@
+\section{Sol torus bundles and the signed norm criterion}\label{sec:sol}
+Let \(A\in SL_2(\Z)\) have trace \(t>2\), eigenvalues \(e^{\pm\ell}\), \(\ell>0\), and \(\Delta=t^2-4\). The reference slice has metric \(dx^2+e^{2x}dy^2+e^{-2x}dz^2\), fibre covolume one and base period \(\ell\). Take the trivial deck character in its invariant frame. The volume is \(\ell\). Homogeneous initial data can realize the shift in \eqref{eq:shift}: the scalar curvature is \(-2\) and an isotropic initial expansion rate \(H\) satisfies \(H^2=w^2+1/3\) in the minimal theory. This is a slice condition; an isotropic scale factor is not required to solve the full anisotropic evolution. We measure the direct sum of the nonzero fibre Fourier sectors. On the omitted zero sector the spectrum is \(2\pi j/\ell\) with two constant spinors at \(j=0\).
+
+\subsection{From the lattice to a Dirac operator on the line}
+Write a positive representative of the monodromy as \(M=\left(\begin{smallmatrix}a&b\\c&d_0\end{smallmatrix}\right)\), and choose the oriented dual eigenbasis so that for \(v=(r,s)\in\Z^2\)
+\begin{equation}
+ F(v)=\det(v,M^\mathsf{T}v)=br^2+(d_0-a)rs-cs^2,\qquad
+ km=-\frac{(2\pi)^2 F(v)}{\sqrt{\Delta}} .
+ \label{eq:F}
+\end{equation}
+The second identity is obtained by taking the determinant in the two dual eigenaxes, whose eigenvalue difference is \(\sqrt\Delta\); the covector coordinates \(k,m\) include the \(2\pi\) Fourier normalization. The sign fixes the convention used below. Invariant-frame connection terms cancel between the expanding and contracting axes. Gluing the Fourier coefficient over \([0,\ell]\) for each \((M^\mathsf T)^jv\) to the next interval gives a unitary map of this orbit to \(L^2(\R,\mathbb C^2)\), with
+\begin{align}
+ D_{k,m}&=-i\sigma_1\partial_\xi+K\sigma_2+M_\xi\sigma_3,
+ &K&=k e^{-\xi},\quad M_\xi=m e^\xi ,\label{eq:line}\\
+ D_{k,m}^2&=-\partial_\xi^2+K^2+M_\xi^2-K\sigma_3-M_\xi\sigma_2.
+ \label{eq:squared}
+\end{align}
+The self-adjoint realizations are the closures from compactly supported smooth spinors. Given a nonzero lattice vector both eigenaxis coefficients are nonzero, since the eigendirections are irrational. Translate \(\xi\) so that \(|k|=|m|=B/\sqrt2\), \(B=\sqrt{2|km|}\). Changing both signs gives a unitarily equivalent operator; changing one sign gives an operator equivalent to its negative. Each square has compact resolvent since its pointwise matrix potential is bounded below by \(B^2\cosh(2\xi)-B\sqrt{\cosh(2\xi)}\), which tends to \(+\infty\).
+
+\begin{lemma}\label{lem:ground}
+The smallest squared level is simple. Its signed Dirac eigenvalue has the sign of \(km\), and its magnitude \(g(B)\) is strictly increasing for every \(B>0\).
+\end{lemma}
+\begin{proof}
+In the \(\sigma_3\) eigenbasis rotate the phase of the second component and absorb \(\sgn m\). In \eqref{eq:squared} the only off-diagonal entries then equal \(-|m|e^\xi\). Replacing the two components by their absolute values lowers the form energy. The scalar one-dimensional heat kernels are positivity improving and the strictly negative off-diagonal potential couples the components everywhere. Equivalently, the coupled ground-state ODE and the strong maximum principle give two everywhere positive components for the ground state, and any second independent ground state would violate strict positivity by orthogonality. The ground eigenspace therefore also diagonalizes \(D_{k,m}\). The anticommutator \(\{D_{k,m},\sigma_2\}=2K\) gives \(\lambda\langle\sigma_2\rangle=\langle K\rangle\). In the chosen positive basis the expectation on the left has the sign of \(m\), proving the sign assertion.
+
+For positive \(k=m=B/\sqrt2\), let \(C=(\sigma_2+\sigma_3)/\sqrt2\). The reflection \(f(\xi)\mapsto C f(-\xi)\) commutes with \eqref{eq:line}. Its simple ground eigenfunction thus satisfies
+\(\langle e^{-\xi}\sigma_2\rangle=\langle e^\xi\sigma_3\rangle\).
+The graph norm of the first-order operator is locally equivalent in \(B>0\) to the norm on \(H^1\cap L^2(\cosh(2\xi)\dd\xi)\), by \eqref{eq:squared} and the infinitesimal relative form bound of the term linear in \(B\). Differentiating the simple isolated eigenvalue on this common domain gives
+\[
+ g'(B)=\frac{\langle e^{-\xi}\sigma_2\rangle+\langle e^\xi\sigma_3\rangle}{\sqrt2}
+       =\sqrt2\langle e^{-\xi}\sigma_2\rangle>0 .
+\]
+The last integrand is positive because \(\sigma_2\) acts as the real off-diagonal flip in the positive basis. Single-sign reversal transfers the result to negative products.
+\end{proof}
+
+\begin{theorem}\label{thm:sol}
+On this reference slice and spin lift, the first positive and negative charge magnitudes in the nonzero-fibre space are equal if and only if
+\[
+ \min_{F(v)>0}F(v)=\min_{F(v)<0}|F(v)|.
+\]
+The equivalence holds without a bound on the positive hyperbolic trace.
+\end{theorem}
+\begin{proof}
+Both signs are attained since \(F(1,0)=b>0,\ F(0,1)=-c<0\). They have positive integer absolute values. With equal minima each sign occurs at the smallest \(B\); Lemma~\ref{lem:ground} supplies two ground levels of identical magnitude and opposite sign, and every other absolute level is as large. With unequal minima the smallest \(B\) carries only one ground sign. Every opposite-sign state either has larger \(B\) or is an excited state of the smallest block. Strict monotonicity and simplicity force a strictly larger magnitude. Each bounded range of form values has finitely many lattice orbits (Appendix~\ref{app:enumerate}); the full-line potential lower bound tends to infinity with \(B\). Thus the other side attains its minimum, with a strict gap. Equation~\eqref{eq:gaps} transfers the result to charge.
+\end{proof}
+
+\subsection{Reversibility and the finite census}
+The positive monodromy words use \(L=\left(\begin{smallmatrix}1&1\\0&1\end{smallmatrix}\right)\) and \(R=L^\mathsf T\). A primitive conjugacy class has a mixed word up to cyclic rotation; powers are excluded. Write it as a cyclic product \(L^{b_i-2}R\). Use U for an integral determinant-minus-one matrix commuting with \(A\), and R-type for a determinant-plus-one matrix conjugating \(A\) to \(A^{-1}\). These conditions detect all orientation reversals: the fibre group is the isolator of the commutator subgroup and hence characteristic, and the total degree is the product of the base and fibre degrees. Conversely the integral maps give diffeomorphisms with those two degrees. In eigen-coordinates, a suitable base translation balances the two coefficients of a diagonal or antidiagonal map, realizing an isometry of the reference metric. Its constant orthogonal frame action preserves the trivial deck character.
+
+Interchanging \(L,R\) tests U. Interchanging letters and reversing their order tests R-type, in each case up to cyclic rotation. With the orientation of \eqref{eq:F}, the eta invariant of the whole spin operator is
+\begin{equation}
+ \eta_D=\frac16\sum_j(b_j-3)=\frac{\#L-\#R}{6}.
+ \label{eq:sol-eta}
+\end{equation}
+Appendix~\ref{app:enumerate} identifies the framed operator to which the classical signature-defect formula applies. This regularized signed sum and the two minima in the theorem use different arithmetic information.
+
+Enumeration gives 488 primitive classes for \(3\le t\le60\). Of these, 472 have neither type of orientation reversal and split, eight have both types and eight have R-type alone; all 16 amphichiral classes have equal thresholds. Exactly six chiral classes have zero eta: two at trace 30 and four at trace 51. Nothing in the threshold theorem identifies chirality with unequal minima beyond this finite census. The exact integer comparisons and class witnesses appear in \texttt{data/classes.json}.
+
+\begin{table}[htbp]\centering\small
+\caption{Certified first nonzero-fibre charge magnitudes. Each parenthesis encloses the exact value; subscripts give complex kernel dimensions.}\label{tab:sol}
+\begin{tabular}{@{}lrrr@{}}\toprule
+Period & \(\eta_D\)& \(q_-\)& \(q_+\)\\\midrule
+\((3)\)&0& \((23.66013,23.66017)_2\)& \((23.66013,23.66017)_2\)\\
+\((2,3)\)&\(-1/6\)&\((26.21864,26.21868)_2\)&\((30.87793,30.87798)_2\)\\
+\((2,3,4)\)&0&\((57.92659,57.92664)_2\)&\((57.92659,57.92664)_2\)\\
+\((2,2,4,4)\)&0&\((65.23384,65.23389)_2\)&\((72.61391,72.61397)_4\)\\\bottomrule
+\end{tabular}
+\end{table}
+The minimum of each sign of \(F\) decides equality, but does not by itself identify the higher signed threshold. In period \((2,3)\) the earliest positive charge selects the first excited level of the opposite ground-sign orbit with \(|F|=1\). Its competitor, a ground state with \(|F|=2\), would require charge about \(36.64\). For \((2,2,4,4)\) the positive charge instead selects a ground level on four orbits with \(|F|=10\). This contrast is why Table~\ref{tab:sol} uses a full-line enclosure for the first excitation as well as the ground state.
