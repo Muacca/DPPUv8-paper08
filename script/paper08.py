@@ -53,6 +53,9 @@ def recompute(out):
                 leaves.append(dict(r=r, spin2=spin, t=t, eta=nil.ball(eta), J=jumps, **record))
     save(out / "nil.json", leaves)
     save(out / "flat.json", {"spins": flat.calculate()})
+    from models import tables
+    (out / "flat_thresholds.md").write_text(tables.flat_table(read(out, "flat.json")["spins"]), encoding="utf-8")
+    (out / "nil_thresholds.md").write_text(tables.nil_table(read(out, "nil.json")), encoding="utf-8")
     numerical = [transport.massive(u, h, interval)
                  for u, h, interval in product((.125, .375), (0, 1), ((-.5, 0.), (0., 1.5)))]
     save(out / "nil_measurements.json", numerical)
@@ -104,6 +107,9 @@ def verify(folder):
     flat=read(folder,"flat.json")["spins"]
     assert len(flat)==28 and sum(bool(Fraction(r["eta"])) for r in flat)==8
     leaves=read(folder,"nil.json")
+    from models import tables
+    assert (folder/"flat_thresholds.md").read_text(encoding="utf-8")==tables.flat_table(flat), "flat_thresholds.md"
+    assert (folder/"nil_thresholds.md").read_text(encoding="utf-8")==tables.nil_table(leaves), "nil_thresholds.md"
     assert len(leaves)==72
     assert all(not arb(r["nonzero"]["Q_positive"]["abs_Q"]).overlaps(arb(r["nonzero"]["Q_negative"]["abs_Q"])) for r in leaves if r["t"]==1)
     sol=read(folder,"thresholds.json")

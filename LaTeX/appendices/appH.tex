@@ -4,9 +4,9 @@ The lowest unpaired Nil tower shifts by \(-\nu/c\) from the spectral centre. Mul
 For a smooth Hermitian \(H\) on a step of width \(\delta\) compare the true propagator with \(\exp[-i\delta H(s_{\rm mid})]\). In the Duhamel formula subtract the term linear in \(s-s_{\rm mid}\) with endpoint factors frozen, whose midpoint integral vanishes. The second Taylor remainder integrates to \(\delta^3\sup\|H''\|/24\); bounding the variation of the unitary factors multiplying the first derivative gives \(\delta^3\sup\|H\|\sup\|H'\|/6\). Since each factor is unitary, local norm errors add directly across the 4096 equal steps. An accumulated propagator error \(\epsilon\) changes the squared rank-one amplitude by at most \(2\epsilon+\epsilon^2\). Derivatives of \eqref{eq:nilhistory} and Pauli exponentials are enclosed with 90-bit Arb arithmetic. For the chosen \(h=0\) device the resulting rounded boxes are
 \[
  \begin{array}{ll}
- n_{u>0}=0.16845\ \pm2.83\,10^{-6},&n_{u<0}=0.04248\ \pm6.89\,10^{-6},\\
- n_{u>0}-n_{u<0}=0.12598\ \pm8.18\,10^{-6},&
- n_{u>0}/n_{u<0}=3.966\ \pm3.85\,10^{-4}.
+ n_{u>0}=0.16845\ \pm2.83\times10^{-6},&n_{u<0}=0.04248\ \pm6.89\times10^{-6},\\
+ n_{u>0}-n_{u<0}=0.12598\ \pm8.18\times10^{-6},&
+ n_{u>0}/n_{u<0}=3.966\ \pm3.85\times10^{-4}.
  \end{array}
 \]
 The separately integrated high-accuracy ODE values quoted in the text fall inside these enclosures. For \(h=1\), fixed \(u\) and the same two LC endpoint definitions, the ratio is \(3.14\pm0.00235\). The closed formula for the metric changes with \(h\). A detector built from fixed left/right component projectors also defines a consistent measurement but gives different values. There is no sum over all ultraviolet modes in these error estimates.

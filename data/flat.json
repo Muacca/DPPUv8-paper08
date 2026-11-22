@@ -1,1462 +1,1396 @@
 {
-  "spins": [
-    {
-      "group": 1,
-      "spin": [
-        0,
-        0,
-        0
-      ],
-      "eta": "0",
-      "lc_kernel": 2,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 6,
-            "origin": "H+A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 6,
-            "origin": "H+A"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          }
-        ]
-      }
-    },
-    {
-      "group": 1,
-      "spin": [
-        0,
-        0,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "1/16",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/16",
-            "dim": 2,
-            "origin": "A"
-          }
-        ]
-      }
-    },
-    {
-      "group": 1,
-      "spin": [
-        0,
-        1,
-        0
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 1,
-      "spin": [
-        0,
-        1,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 4,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 1,
-      "spin": [
-        1,
-        0,
-        0
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 1,
-      "spin": [
-        1,
-        0,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 4,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 1,
-      "spin": [
-        1,
-        1,
-        0
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 4,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 1,
-      "spin": [
-        1,
-        1,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 8,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 8,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 8,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 8,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 8,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 8,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 2,
-      "spin": [
-        1,
-        0,
-        0
-      ],
-      "eta": "-1",
-      "lc_kernel": 0,
-      "critical": {
-        "split_L_squared": "0",
-        "both_axial_L_squared": "2"
-      },
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "2",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/16",
-            "dim": 2,
-            "origin": "A"
-          }
-        ]
-      }
-    },
-    {
-      "group": 2,
-      "spin": [
-        1,
-        0,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 2,
-      "spin": [
-        1,
-        1,
-        0
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 2,
-      "spin": [
-        1,
-        1,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 4,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 2,
-      "spin": [
-        -1,
-        0,
-        0
-      ],
-      "eta": "1",
-      "lc_kernel": 0,
-      "critical": {
-        "split_L_squared": "0",
-        "both_axial_L_squared": "2"
-      },
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "2",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "1/16",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "A"
-          }
-        ]
-      }
-    },
-    {
-      "group": 2,
-      "spin": [
-        -1,
-        0,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 2,
-      "spin": [
-        -1,
-        1,
-        0
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 2,
-      "spin": [
-        -1,
-        1,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 4,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 4,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 3,
-      "spin": [
-        1,
-        0,
-        0
-      ],
-      "eta": "-4/3",
-      "lc_kernel": 0,
-      "critical": {
-        "split_L_squared": "0",
-        "both_axial_L_squared": "9/2"
-      },
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "7/3",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "19/12",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "67/48",
-            "dim": 4,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/16",
-            "dim": 2,
-            "origin": "A"
-          }
-        ]
-      }
-    },
-    {
-      "group": 3,
-      "spin": [
-        -1,
-        0,
-        0
-      ],
-      "eta": "2/3",
-      "lc_kernel": 0,
-      "critical": {
-        "split_L_squared": "3/4",
-        "both_axial_L_squared": "3"
-      },
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "4/3",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "4/3",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "4/3",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          }
-        ]
-      }
-    },
-    {
-      "group": 4,
-      "spin": [
-        1,
-        0,
-        0
-      ],
-      "eta": "-3/2",
-      "lc_kernel": 0,
-      "critical": {
-        "split_L_squared": "0",
-        "both_axial_L_squared": "12"
-      },
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "17/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/16",
-            "dim": 2,
-            "origin": "A"
-          }
-        ]
-      }
-    },
-    {
-      "group": 4,
-      "spin": [
-        1,
-        1,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 4,
-      "spin": [
-        -1,
-        0,
-        0
-      ],
-      "eta": "1/2",
-      "lc_kernel": 0,
-      "critical": {
-        "split_L_squared": "2",
-        "both_axial_L_squared": "6"
-      },
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "5/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "A"
-          },
-          {
-            "lambda_squared_in_2pi_units": "17/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 4,
-      "spin": [
-        -1,
-        1,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 5,
-      "spin": [
-        1,
-        0,
-        0
-      ],
-      "eta": "-5/3",
-      "lc_kernel": 0,
-      "critical": {
-        "split_L_squared": "0",
-        "both_axial_L_squared": "45/2"
-      },
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "7/3",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "19/12",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/4",
-            "dim": 2,
-            "origin": "A"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "67/48",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "1/16",
-            "dim": 2,
-            "origin": "A"
-          }
-        ]
-      }
-    },
-    {
-      "group": 5,
-      "spin": [
-        -1,
-        0,
-        0
-      ],
-      "eta": "1/3",
-      "lc_kernel": 0,
-      "critical": {
-        "split_L_squared": "9/2",
-        "both_axial_L_squared": "9"
-      },
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "7/3",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "7/3",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "19/12",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "19/12",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "67/48",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "67/48",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 6,
-      "spin": [
-        1,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 6,
-      "spin": [
-        1,
-        -1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 6,
-      "spin": [
-        -1,
-        1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    },
-    {
-      "group": 6,
-      "spin": [
-        -1,
-        -1
-      ],
-      "eta": "0",
-      "lc_kernel": 0,
-      "critical": {},
-      "thresholds": {
-        "1/2": [
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/2",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "1": [
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "3/4",
-            "dim": 2,
-            "origin": "H"
-          }
-        ],
-        "2": [
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          },
-          {
-            "lambda_squared_in_2pi_units": "9/16",
-            "dim": 2,
-            "origin": "H"
-          }
-        ]
-      }
-    }
-  ],
-  "example_window": [
-    {
-      "h": 0,
-      "control": "fixed_Q_over_6V",
-      "nearest_negative_axial_q": 0.690988298942671,
-      "proper_time_from_bang": 0.10997420339538638,
-      "SF_positive_Q": 0,
-      "SF_negative_Q": -2
-    },
-    {
-      "h": 0,
-      "control": "fixed_raw_w",
-      "nearest_negative_axial_q": 0.690988298942671,
-      "proper_time_from_bang": 0.10997420339538638,
-      "SF_positive_Q": 0,
-      "SF_negative_Q": -2
-    },
-    {
-      "h": 0.5,
-      "control": "fixed_Q_over_6V",
-      "nearest_negative_axial_q": 0.690988298942671,
-      "proper_time_from_bang": 0.09836391782538885,
-      "SF_positive_Q": 0,
-      "SF_negative_Q": -2
-    },
-    {
-      "h": 0.5,
-      "control": "fixed_raw_w",
-      "nearest_negative_axial_q": 0.6180387232371034,
-      "proper_time_from_bang": 0.0879793627163091,
-      "SF_positive_Q": 0,
-      "SF_negative_Q": -2
-    },
-    {
-      "h": 1,
-      "control": "fixed_Q_over_6V",
-      "nearest_negative_axial_q": 0.690988298942671,
-      "proper_time_from_bang": 0.07776350497646634,
-      "SF_positive_Q": 0,
-      "SF_negative_Q": -2
-    },
-    {
-      "h": 1,
-      "control": "fixed_raw_w",
-      "nearest_negative_axial_q": 0.4886025119029199,
-      "proper_time_from_bang": 0.05498710169769317,
-      "SF_positive_Q": 0,
-      "SF_negative_Q": 0
-    },
-    {
-      "h": 2,
-      "control": "fixed_Q_over_6V",
-      "nearest_negative_axial_q": 0.690988298942671,
-      "proper_time_from_bang": 0.049181958912694425,
-      "SF_positive_Q": 0,
-      "SF_negative_Q": -2
-    },
-    {
-      "h": 2,
-      "control": "fixed_raw_w",
-      "nearest_negative_axial_q": 0.3090193616185517,
-      "proper_time_from_bang": 0.021994840679077275,
-      "SF_positive_Q": 0,
-      "SF_negative_Q": 0
-    }
-  ]
+ "spins": [
+  {
+   "group": 1,
+   "spin": [
+    0,
+    0,
+    0
+   ],
+   "eta": "0",
+   "lc_kernel": 2,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 6,
+      "origin": "H+A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 6,
+      "origin": "H+A"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     }
+    ]
+   }
+  },
+  {
+   "group": 1,
+   "spin": [
+    0,
+    0,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "1/16",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/16",
+      "dim": 2,
+      "origin": "A"
+     }
+    ]
+   }
+  },
+  {
+   "group": 1,
+   "spin": [
+    0,
+    1,
+    0
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 1,
+   "spin": [
+    0,
+    1,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 4,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 1,
+   "spin": [
+    1,
+    0,
+    0
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 1,
+   "spin": [
+    1,
+    0,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 4,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 1,
+   "spin": [
+    1,
+    1,
+    0
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 4,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 1,
+   "spin": [
+    1,
+    1,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 8,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 8,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 8,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 8,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 8,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 8,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 2,
+   "spin": [
+    1,
+    0,
+    0
+   ],
+   "eta": "-1",
+   "lc_kernel": 0,
+   "critical": {
+    "split_L_squared": "0",
+    "both_axial_L_squared": "2"
+   },
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "2",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/16",
+      "dim": 2,
+      "origin": "A"
+     }
+    ]
+   }
+  },
+  {
+   "group": 2,
+   "spin": [
+    1,
+    0,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 2,
+   "spin": [
+    1,
+    1,
+    0
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 2,
+   "spin": [
+    1,
+    1,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 4,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 2,
+   "spin": [
+    -1,
+    0,
+    0
+   ],
+   "eta": "1",
+   "lc_kernel": 0,
+   "critical": {
+    "split_L_squared": "0",
+    "both_axial_L_squared": "2"
+   },
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "2",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "1/16",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "A"
+     }
+    ]
+   }
+  },
+  {
+   "group": 2,
+   "spin": [
+    -1,
+    0,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 2,
+   "spin": [
+    -1,
+    1,
+    0
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 2,
+   "spin": [
+    -1,
+    1,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 4,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 4,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 3,
+   "spin": [
+    1,
+    0,
+    0
+   ],
+   "eta": "-4/3",
+   "lc_kernel": 0,
+   "critical": {
+    "split_L_squared": "0",
+    "both_axial_L_squared": "9/2"
+   },
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "7/3",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "19/12",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "67/48",
+      "dim": 4,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/16",
+      "dim": 2,
+      "origin": "A"
+     }
+    ]
+   }
+  },
+  {
+   "group": 3,
+   "spin": [
+    -1,
+    0,
+    0
+   ],
+   "eta": "2/3",
+   "lc_kernel": 0,
+   "critical": {
+    "split_L_squared": "3/4",
+    "both_axial_L_squared": "3"
+   },
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "4/3",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "4/3",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "4/3",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     }
+    ]
+   }
+  },
+  {
+   "group": 4,
+   "spin": [
+    1,
+    0,
+    0
+   ],
+   "eta": "-3/2",
+   "lc_kernel": 0,
+   "critical": {
+    "split_L_squared": "0",
+    "both_axial_L_squared": "12"
+   },
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "17/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/16",
+      "dim": 2,
+      "origin": "A"
+     }
+    ]
+   }
+  },
+  {
+   "group": 4,
+   "spin": [
+    1,
+    1,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 4,
+   "spin": [
+    -1,
+    0,
+    0
+   ],
+   "eta": "1/2",
+   "lc_kernel": 0,
+   "critical": {
+    "split_L_squared": "2",
+    "both_axial_L_squared": "6"
+   },
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "5/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "A"
+     },
+     {
+      "lambda_squared_in_2pi_units": "17/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 4,
+   "spin": [
+    -1,
+    1,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 5,
+   "spin": [
+    1,
+    0,
+    0
+   ],
+   "eta": "-5/3",
+   "lc_kernel": 0,
+   "critical": {
+    "split_L_squared": "0",
+    "both_axial_L_squared": "45/2"
+   },
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "7/3",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "19/12",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/4",
+      "dim": 2,
+      "origin": "A"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "67/48",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "1/16",
+      "dim": 2,
+      "origin": "A"
+     }
+    ]
+   }
+  },
+  {
+   "group": 5,
+   "spin": [
+    -1,
+    0,
+    0
+   ],
+   "eta": "1/3",
+   "lc_kernel": 0,
+   "critical": {
+    "split_L_squared": "9/2",
+    "both_axial_L_squared": "9"
+   },
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "7/3",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "7/3",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "19/12",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "19/12",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "67/48",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "67/48",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 6,
+   "spin": [
+    1,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 6,
+   "spin": [
+    1,
+    -1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 6,
+   "spin": [
+    -1,
+    1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  },
+  {
+   "group": 6,
+   "spin": [
+    -1,
+    -1
+   ],
+   "eta": "0",
+   "lc_kernel": 0,
+   "critical": {},
+   "thresholds": {
+    "1/2": [
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/2",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "1": [
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "3/4",
+      "dim": 2,
+      "origin": "H"
+     }
+    ],
+    "2": [
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     },
+     {
+      "lambda_squared_in_2pi_units": "9/16",
+      "dim": 2,
+      "origin": "H"
+     }
+    ]
+   }
+  }
+ ]
 }
