@@ -2,11 +2,11 @@
 
 The English manuscript cites the following editions. Paper 04 supplies the comparison spectra and Paper 07 the constant-coupling conventions.
 
-- Muacca. DPPU Paper 04, v2 (2026). [Kaluza–Klein Quadratic Forms and Torsion Boundary Data on Four Compact Geometries](https://doi.org/10.5281/zenodo.19775695)
-- Muacca. DPPU Paper 07, v2 (2026). [Lorentzian Einstein–Cartan Reduction on Compact Homogeneous Geometries: Constraints and Inhomogeneous Perturbations](https://doi.org/10.5281/zenodo.20678646)
+- Muacca. Kaluza–Klein Quadratic Forms and Torsion Boundary Data on Four Compact Geometries. v2 (2026). [doi:10.5281/zenodo.19775695](https://doi.org/10.5281/zenodo.19775695).
+- Muacca. Lorentzian Einstein–Cartan Reduction on Compact Homogeneous Geometries: Constraints and Inhomogeneous Perturbations. v2 (2026). [doi:10.5281/zenodo.20678646](https://doi.org/10.5281/zenodo.20678646).
 - G. Calcagni and S. Mercuri. Phys. Rev. D 79, 084004 (2009). [Barbero–Immirzi field in canonical formalism of pure gravity](https://arxiv.org/abs/0902.0957)
-- B. Ammann and C. Bär. arXiv:math/9801091. [The Dirac operator on nilmanifolds and collapsing circle bundles](https://arxiv.org/abs/math/9801091)
-- R. Gornet and K. Richardson. arXiv:1210.8070v5 (2024). [The eta invariant on two-step nilmanifolds](https://arxiv.org/abs/1210.8070v5)
+- B. Ammann and C. Bär. Ann. Global Anal. Geom. 16 (1998), 221–253; arXiv:math/9801091. [The Dirac operator on nilmanifolds and collapsing circle bundles](https://arxiv.org/abs/math/9801091)
+- R. Gornet and K. Richardson. Comm. Anal. Geom. 26 (2018), 271–346; arXiv:1210.8070v5 (2024). [The eta invariant on two-step nilmanifolds](https://arxiv.org/abs/1210.8070v5)
 - F. Pfäffle. J. Geom. Phys. 35 (2000), 367–385. [The Dirac spectrum of Bieberbach manifolds](https://www.sciencedirect.com/science/article/pii/S039304400000005X)
 - C. Bär. J. Math. Soc. Japan 48 (1996), 69–83. [The Dirac operator on space forms of positive curvature](https://www.jstage.jst.go.jp/article/jmath1948/48/1/48_1_69/_article/-char/en)
 - S. Boldt and E. A. Lauret. J. Geom. Anal. 27 (2017), 689–725. [An explicit formula for the Dirac multiplicities on lens spaces](https://arxiv.org/abs/1412.2599)

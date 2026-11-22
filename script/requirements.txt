@@ -1,4 +1,4 @@
-numpy
-scipy
-python-flint
-matplotlib
+numpy>=1.25
+scipy>=1.11
+python-flint>=0.8
+matplotlib>=3.8
