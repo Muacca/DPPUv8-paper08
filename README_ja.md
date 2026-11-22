@@ -1,6 +1,6 @@
 # コンパクトなスピン三次元多様体でNieh–Yan電荷の符号を読む
 
-Muacca · DPPUv8 Paper 08 · **v0.1** · 初版2026-11-22
+Muacca · DPPUv8 Paper 08 · **v1** · 初版2026-11-22
 
 空間Dirac作用素の核が最初に現れる電荷の絶対値を正負で比較する。Solトーラス束の基準スピンと非零ファイバー運動量部分では、二つの閾値が等しいことと、格子の不定値二次形式の正負最小絶対値が等しいことが同値である。手性との一致を検証したのはトレース60までの原始488共役類である。荷電Nilで同じ装置を使う有限時間の測定も構成し、二つの電荷枝の期待占有を区別する。
 
@@ -17,3 +17,9 @@ Muacca · DPPUv8 Paper 08 · **v0.1** · 初版2026-11-22
 | [第7節](DPPUv8-paper08_sec07.md) | 結論と適用域 |
 
 [付録A　符号規約](DPPUv8-paper08_appA.md)・[B　Solの列挙と認証](DPPUv8-paper08_appB.md)・[C　球面15リフト](DPPUv8-paper08_appC.md)・[D　Nilのスペクトル](DPPUv8-paper08_appD.md)・[E　平坦28リフト](DPPUv8-paper08_appE.md)・[F　積幾何とSeifert](DPPUv8-paper08_appF.md)・[G　レンズの殻間零点](DPPUv8-paper08_appG.md)・[H　有限殻の誤差](DPPUv8-paper08_appH.md)・[I　再現と適用範囲](DPPUv8-paper08_appI.md)
+
+## 謝辞
+
+2026年11月の原稿作成では、Claude Opus 5.5、Gemini 4 Neon、GPT Astra 6.2が記号導出、実装、日英の記述、決定的な図生成コードを支援した。計算と図は、添付の数学的定義とデータから再現できる。内容と残る誤りの責任は著者にある。
+
+本研究は非公式の共同プロジェクト **DPPU**（**D**onut-like topology, **P**lanck-scale compactness, **P**recession dynamics, **U**niverse）の中で進めた。
