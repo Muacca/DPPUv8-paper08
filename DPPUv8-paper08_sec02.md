@@ -16,7 +16,7 @@ w&=\frac{\kappa^2}{d}\frac{d\theta}{d\tau},\qquad Q_\Sigma=-6\mathcal V w,
 \\ D(Q_\Sigma)&=D_{\mathrm{LC}}+\tfrac32 w
            =D_{\mathrm{LC}}-\frac{Q_\Sigma}{4\mathcal V}.
 \end{aligned}
-\tag{1}
+\qquad(1)
 ```
 
 ここで $`\mathcal V=\int_Y e^{123}`$ は物理体積である。Clifford 作用には $`c(e^j)=-i\sigma_j`$ 、 $`c_1c_2c_3=-1`$ を用いる。軸性ねじれによるシフトと固定電荷における諸量の対応は[付録A](DPPUv8-paper08_appA.md)に示す。実数 $`h`$ に対するこれらの式は、指定した斉次背景についてのものである。 $`\mathcal V`$ が与えられれば、電荷を固定するだけで $`w`$ が定まる。一方、再スケールする前のスカラー場の初速度を固定すると、 $`w`$ は $`h`$ に応じて変わる。
@@ -30,7 +30,7 @@ w&=\frac{\kappa^2}{d}\frac{d\theta}{d\tau},\qquad Q_\Sigma=-6\mathcal V w,
 q_+&=4\mathcal V\min\bigl(\mathrm{spec}_{\mathcal H}D_{\mathrm{LC}}\cap(0,\infty)\bigr),
 \\ q_-&=4\mathcal V\min\bigl(-\mathrm{spec}_{\mathcal H}D_{\mathrm{LC}}\cap(0,\infty)\bigr).
 \end{aligned}
-\tag{2}
+\qquad(2)
 ```
 
 最初の接触、すなわち当該の準位が零に達するのは、 $`Q_\Sigma=q_+`$ および $`Q_\Sigma=-q_-`$ のときである。本稿の例ではどれもスペクトルが正負両方の固有値をもつ。 $`Q_\Sigma=0`$ ですでに存在する零モードは別に記録する。二つの閾値が異なり、一方の閾値に電荷の絶対値を合わせ、そのセクターを測定できるとき、この閾値によって符号を判別できる。絶対値が未知の任意の電荷について符号を同定できるとは限らない。
